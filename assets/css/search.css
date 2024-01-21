@@ -1,0 +1,31 @@
+.filter {
+    padding-top: 6px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.filter__block span,
+.filter {
+    padding-top: 6px;
+}
+
+.filter-list {
+    display: flex;
+}
+
+.filter-list li {
+    margin-left: 14px;
+    font-size: 1.4rem;
+}
+
+.filter__block {
+    font-size: 1.6rem;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 2px 20px;
+    margin: 10px 0 4px 0;
+    background-color: #555;
+    color: #fff;
+}

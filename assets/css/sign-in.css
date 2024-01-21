@@ -1,0 +1,44 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: #999;
+}
+
+.sign-in__container {
+    font-size: 1.4rem;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: #555;
+    width: 600px;
+}
+
+
+
+.sign-in__btn {
+    margin-top: 10px;
+    padding: 4px 10px;
+    font-size: 1.6rem;
+    margin-right: 14px;
+    width: 100px;
+    background-color: transparent;
+    border: 0.2px solid #fff;
+}
+
+.sign-in__btn:hover{
+    background-color: #c2b3b3;
+}
+
+.non-account {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.index-link{
+    text-decoration: none;
+}
