@@ -25,6 +25,7 @@
         margin-bottom: 1rem !important;
         width: 180px;
         min-width: 180px;
+        max-height: 20px;
     }
 
     .cart {
