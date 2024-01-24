@@ -15,9 +15,18 @@ html {
     box-sizing: border-box;
 }
 
+
+
+
 ol,
 ul {
     list-style-type: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .web-logo {
@@ -27,46 +36,18 @@ ul {
     font-size: 2.6rem;
 }
 
-
-@media screen and (min-width: 64em) {
-    .product img {
-        min-width: 100%;
-    }
-
-    .product__list-nobanner .product__item img {
-        min-width: 100%;
-    }
-
+.footer {
+    margin-top: 20px;
+    background-color: #555;
 }
 
-@media screen and (min-width: 46.25em) {
-    .product__item-modal {
-        display: none;
-        bottom: -44px;
-    }
-}
+
+@media screen and (min-width: 64em) {}
+
 
 @media screen and (min-width: 46.25em) and (max-width:63.9375em) {}
 
 @media screen and (max-width: 46.1875em) {
-    .product__item-banner {
-        display: none;
-    }
-
-    .product__item {
-        width: 100%;
-    }
-
-    .product__item-modal {
-        display: block;
-        bottom: 4px;
-    }
-
-    .product__list-nobanner {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .sign-in__group {
         display: flex;
         flex-direction: column;
@@ -74,7 +55,11 @@ ul {
         align-items: flex-start;
     }
 
-    .product-detail__description {
-        display: none;
+    .product-card {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
     }
+
+
+
 }
